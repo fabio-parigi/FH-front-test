@@ -1,0 +1,53 @@
+ {
+  "pedidos" : [
+    { 
+      "num_ped":"00000001",
+      "cliente":"Bruce Wayne",
+      "cpf_cnpj" : "11111111111",
+      "endereco_de_entrega":"Rua XV de Novembro 1223",
+      "preco_total":"70.00",
+        "itens":[
+        {   "produto": "ABC123",
+            "descricao": "Furadeira",
+            "qtde": "1",
+            "unidade" : "PC",
+            "preco": "10.00",
+            "total": "10.00"
+        },
+        {   "produto": "XYZ124",
+            "descricao": "Serra",
+            "qtde": "3",
+            "unidade" : "PC",
+            "preco": "20.00",
+            "total": "60.00"
+        }
+      ]
+      },
+    { 
+      
+      "num_ped":"00000002",
+      "cliente":"Tony Stark",
+      "cpf_cnpj" : "22222222222",
+      "endereco_de_entrega":"Rua mAL Deodoro, 1700",
+      "preco_total":"160.00",
+      "itens":[
+                  {   "produto": "ABC125",
+                      "descricao": "Bateria",
+                      "qtde": "10",
+                      "unidade" : "PC",
+                      "preco": "10.00",
+                      "total": "100.00"
+                  },
+                  {   "produto": "XYZ126",
+                      "descricao": "Parafuso",
+                      "qtde": "3",
+                      "unidade" : "CX",
+                      "preco": "20.00",
+                      "total": "60.00"
+                  }
+                ]
+      }
+  ]
+}
+
+

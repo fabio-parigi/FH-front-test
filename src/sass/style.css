@@ -1,0 +1,87 @@
+@media (max-width: 768px){
+  .breakpoint-alias:before {
+    content: "SM";
+  }
+  .itens{
+    display: none;
+
+  .btn{
+    margin-top:1%;
+  }
+
+  button {
+   width: 100%;
+   margin: 10px;
+  }
+
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 983px) {
+  h1 {
+    font-size: 24px;
+  }
+  button {
+  display: block;
+   width: 100%;
+   margin: 10px;
+  }
+}
+@media (min-width: 984px) and (max-width: 1199px) {
+  h1 {
+    font-size: 24px;
+  }
+  button {
+  display: block;
+   width: 100%;
+   margin: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 30px;
+  }
+  button {
+  display: block;
+   width: 100%;
+   margin: 10px;
+  }
+}
+
+
+.page {
+  width: 100%;
+  padding: 0 10%;
+  display: block;
+  margin: 0 auto;
+}
+  
+
+.block {
+ width: 100%;
+ padding: 2%;
+ border: 2px solid black;
+ margin: 10px 0;
+}
+
+.bt_menu {
+ width: 100%;
+ padding: 2%;
+ margin: 10px 0;
+ text-align: center;
+}
+
+.itens td{
+    padding-right:10px
+ }
+
+
+
